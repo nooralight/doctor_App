@@ -1,0 +1,31 @@
+5,o
+I want to make an appointment,make_appointment
+yes,make_appointment
+yes I want to,make_appointment
+yes, I want,make_appointment
+yes i want,make_appointment
+yes I want to make appointment,make_appointment
+make appointment of doctors,make_appointment
+create appointment of doctors,make_appointment
+set an appointment,make_appointment
+emergency sector,emergency
+emergency unit,emergency
+doctor of emergency sector,emergency
+doctor of emergency unit,emergency
+psychiastrist sector,psychiastrist
+psychiastrist unit,psychiastrist
+doctor of psychiastrist sector,psychiastrist
+doctor of psychiastrist unit,psychiastrist\
+cancer sector,cancer
+cancer unit,cancer
+doctor of cancer sector,cancer
+doctor of cancer unit,cancer
+infection sector,infection
+infection unit,infection
+doctor of infection sector,infection
+doctor of infection unit,infection
+cardiothoracic sector,cardiothoracic
+cardiothoracic unit,cardiothoracic
+doctor of cardiothoracic sector,cardiothoracic
+doctor of cardiothoracic unit,cardiothoracic
+thank you, welcome
