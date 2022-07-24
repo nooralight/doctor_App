@@ -8,6 +8,8 @@ urlpatterns = [
     path('sector/', views.sector , name="ch-sector"),
     path('doctors/', views.cho_doctor , name="ch-doctor"),
     path('confirm/', views.confirming , name="confirm-app"),
-    path('app_list/', views.gotoAppList , name="list-app")
+    path('app_list/', views.gotoAppList , name="list-app"),
+    path('gotoProfileUpdate/', views.gotoUpdateProfile, name="go-update-profile"),
+    path('update', views.updateProfile,name="update-profile")
 
 ]

@@ -81,6 +81,28 @@ def gotoAppList(request):
     return render(request,"appointment_list.html", context)
 
 
+def gotoUpdateProfile(request):
+    userID = request.session['user_id']
+    user = User.objects.get(id=userID)
+    context= {"user":user}
+    return render(request, "edit_profile.html", context)
+
+def updateProfile(request):
+    userID = request.session['user_id']
+    user = User.objects.get(id=userID)
+    if request.method== "POST":
+        user.fullname = request.POST.get("full_name")
+        user.email = request.POST.get("email")
+        user.password = request.POST.get("password")
+        print(request.POST.get("about"))
+        user.save()
+        response = "/"
+        return redirect(response)
+    else:
+        response = "/"
+        return redirect(response)
+
+
 
 
 
