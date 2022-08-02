@@ -1,7 +1,4 @@
-from multiprocessing import context
-from pydoc import doc
 from django.shortcuts import redirect, render
-
 from account.models import User
 from .models import Doctor
 

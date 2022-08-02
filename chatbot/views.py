@@ -1,12 +1,8 @@
-from multiprocessing import context
-from re import L
-from urllib import response
 from django.shortcuts import render, redirect
 from account.models import User
 from admin.models import Doctor
 from chatbot.models import Appointment
 from .files.botResponse import getResponse
-from datetime import datetime
 from django.conf import settings
 from django.core.mail import send_mail
 

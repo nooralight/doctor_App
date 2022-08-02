@@ -1,10 +1,5 @@
-from pyexpat.errors import messages
-from urllib import response
-from django.shortcuts import redirect, render, HttpResponseRedirect
-from django.urls import reverse
+from django.shortcuts import redirect, render
 from .models import User
-
-
 
 # Create your views here.
 def gotoRegistration(request):
