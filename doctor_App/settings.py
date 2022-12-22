@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'doctor_App.wsgi.application'
 DATABASES = {  
     'default': {
         'ENGINE'  : 'django.db.backends.mysql', # <-- UPDATED line 
-        'NAME'    : 'doctor_App',                 # <-- UPDATED line 
+        'NAME'    : 'hospital_bot',                 # <-- UPDATED line 
         'USER'    : 'root',                     # <-- UPDATED line
         'PASSWORD': '',              # <-- UPDATED line
         'HOST'    : 'localhost',                # <-- UPDATED line
